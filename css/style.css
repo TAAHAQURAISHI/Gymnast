@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+nav {
+    
+    display: flex;
+    
+    /* margin: 5px !important; */
+    /* position: absolute !important; */
+    /* z-index: 1!important; */
+    background-color: black!important;
+     /* align-self: flex-end!important; */
+}
+
+
+#crousel img{
+    height: 50vw !important;
+}
+h1{
+    position: absolute;
+    z-index: 1;
+}
+/* h3{
+    font-size: xx-large;
+   font-weight: bold !important;
+} */
+h2,h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+nav button:active{
+    background-color: rgb(20, 20, 20)!important;
+}
+
+.crousel-inner a:hover {
+    background-color: red!important;
+}
+
+@media  (max-width: 1279px) {
+    #crousel h1{
+        display: none !important;;
+    }
+    
+}/*
+@media (min-width:1280px) {
+    h2, h3, .crousel-inner a {
+        font-size: 4.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+} */
+  /*
+ @media (max-width:400px){
+
+    h3{
+         display: none !important; 
+         size: small !important;
+
+    } 
+} 
+*/
+/*
+ @media (max-width:400px){
+     
+     p{
+         display: block !important;;
+         size: small !important;
+         
+        } 
+        
+    }
+*/
